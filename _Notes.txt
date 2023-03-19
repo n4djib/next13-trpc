@@ -1,0 +1,14 @@
+=== https://github.com/trpc/trpc/discussions/3185
+
+                = how to add new routes to tRPC from other files
+= in APP dir it works fine
+    but it craches in the old Pages directory
+        you need to restart the server
+= need to implement server-rsc
+= Authorization
+= use ReactQuery inside trpc provider
+= 
+= 
+= 
+= 
+= 

@@ -1,0 +1,16 @@
+npx create-next-app@latest --experimental-app
+
+next dev --turbo
+
+
+tRPC
+    add it in pages/api
+prisma
+
+npm install @trpc/server 
+npm install @trpc/client 
+npm install @trpc/react-query 
+npm install @trpc/next 
+npm install @tanstack/react-query 
+npm install zod
+

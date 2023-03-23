@@ -1,5 +1,6 @@
 import "./globals.css";
-import { ClientProvider } from "../utils/trpcClient";
+import ProvidersWrapper from "../providers";
+import Header from "./components/Header";
 
 export const metadata = {
   title: "Next13 tRPC",
@@ -14,7 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ClientProvider>{children}</ClientProvider>
+        <ProvidersWrapper>
+          <Header />
+          {children}
+        </ProvidersWrapper>
       </body>
     </html>
   );

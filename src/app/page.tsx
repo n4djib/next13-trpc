@@ -1,11 +1,3 @@
-// import styles from "./page.module.css";
-import TrpcTest from "./TrpcTest";
+import HomePage from "./HomePage";
 
-export default function Home() {
-  return (
-    <>
-      <h1>Home Page NextJs 13 tRPC</h1>
-      <TrpcTest />
-    </>
-  );
-}
+export default HomePage;

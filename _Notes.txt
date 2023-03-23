@@ -1,13 +1,20 @@
 === https://github.com/trpc/trpc/discussions/3185
 
-                = how to add new routes to tRPC from other files
-= in APP dir it works fine
-    but it craches in the old Pages directory
-        you need to restart the server
+            = how to add new routes to tRPC from other files
+            = in APP dir it works fine
+                but it craches in the old Pages directory
+                    you need to restart the server
+            = use ReactQuery inside trpc provider
+            = Cached functions
 = need to implement server-rsc
+    to avoid calling a difrent api than the client does
+= pass the auth user in ctx
+    with other context
 = Authorization
-= use ReactQuery inside trpc provider
-= 
+= Mutation
+= Prisma
+= move tRPC API to APP dir
+    ???
 = 
 = 
 = 
